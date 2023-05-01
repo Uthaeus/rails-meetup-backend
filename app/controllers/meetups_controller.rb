@@ -46,6 +46,6 @@ class MeetupsController < ApplicationController
 
     # Only allow a list of trusted parameters through.
     def meetup_params
-      params.require(:meetup).permit(:title, :description, :location, :date, :time, :image)
+      params.require(:meetup).permit(:title, :description, :location, :date, :time, :image, :thumbnail)
     end
 end

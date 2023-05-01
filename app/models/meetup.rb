@@ -2,6 +2,7 @@ class Meetup < ApplicationRecord
 
     validates_presence_of :title, :location, :description, :date, :time
 
-    has_one_attached :image
+    mount_uploader :image, MeetupUploader
+    mount_uploader :thumbnail, MeetupUploader
 
 end

@@ -46,3 +46,5 @@ group :development do
   # gem "spring"
 end
 
+gem 'mini_magick', '~> 4.12'
+gem 'carrierwave', '~> 2.2', '>= 2.2.3'
