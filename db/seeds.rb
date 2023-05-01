@@ -1,7 +1,11 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
-#   Character.create(name: "Luke", movie: movies.first)
+5.times do |meetup|
+    Meetup.create(
+        title: "Meetup #{meetup}",
+        description: "This is the description for meetup #{meetup}",
+        location: "Location #{meetup}",
+        date: "Date #{meetup}",
+        time: "Time #{meetup}",
+    )
+end
+
+puts "5 Meetups created"
