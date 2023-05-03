@@ -49,3 +49,5 @@ end
 gem 'mini_magick', '~> 4.12'
 gem 'carrierwave', '~> 2.2', '>= 2.2.3'
 gem 'devise', '~> 4.9', '>= 4.9.2'
+gem 'devise-jwt', '~> 0.10.0'
+gem 'jsonapi-serializer', '~> 2.2'
